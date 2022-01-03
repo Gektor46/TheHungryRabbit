@@ -1,0 +1,16 @@
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\bin\Debug\TheHungryRabbit.exe.config
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\bin\Debug\TheHungryRabbit.exe
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\bin\Debug\TheHungryRabbit.pdb
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.csprojAssemblyReference.cache
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.FormMenu.resources
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.Properties.Resources.resources
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.csproj.GenerateResource.cache
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.csproj.CoreCompileInputs.cache
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.exe
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.pdb
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.FormLevel1.resources
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.FormLevel2.resources
+C:\Users\Артём\Desktop\Голодный кролик\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.FormLevel3.resources
+E:\Разенков А.А. М30-207Б-17 (Голодный кролик)\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.csprojAssemblyReference.cache
+E:\Разенков А.А. М30-207Б-17 (Голодный кролик)\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.exe
+E:\Разенков А.А. М30-207Б-17 (Голодный кролик)\TheHungryRabbit\TheHungryRabbit\obj\Debug\TheHungryRabbit.pdb
