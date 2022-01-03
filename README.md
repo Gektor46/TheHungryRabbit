@@ -1,2 +1,2 @@
 # The Hungry Rabbit
-My first game
+![alt text](RabbitIcon.ico)
