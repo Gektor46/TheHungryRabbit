@@ -1,4 +1,15 @@
-﻿using System;
+﻿/***************************************************************************************
+* Project name  : TheHungryRabbit2                                                     *
+* Project type  : win64 console app                                                    *
+* File_name     : TheHungryRabbit2                                                     *
+* Language      : c#. MSVS 2017 and above                                              *
+* Programmers   : Razenkov A. A.                                                       *
+* Modified      : -                                                                    *
+* Created       : 25.03.19                                                             *
+* Last Revision : 30.05.19                                                             *
+* Comment       : FormMenu                                                             *
+***************************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +19,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TheHungryRabbit
+namespace TheHungryRabbit2
 {
     public partial class FormMenu : Form
     {
@@ -16,27 +27,27 @@ namespace TheHungryRabbit
         {
             InitializeComponent();
         }
-
+        //Кнопка старта игры
         private void buttonStart_Click(object sender, EventArgs e)
         {
             StartLevel1();
         }
-
-        private void BoxSound_CheckedChanged(object sender, EventArgs e)
+        //Подключение музыки
+        private void boxSound_CheckedChanged(object sender, EventArgs e)
         {
-            if (BoxSound.Checked)
+            if (boxSound.Checked)
             {
                 Sound.SoundOn();
-                BoxSound.Text = "Звук есть";
+                boxSound.Text = "Звук есть";
                 Sound.PlayCrunch();
             }
             else
             {
                 Sound.SoundOff();
-                BoxSound.Text = "Звука нет";
+                boxSound.Text = "Звука нет";
             }
         }
-
+        //Выход
         private void buttonExit_Click(object sender, EventArgs e)
         {
             Close();
@@ -52,7 +63,6 @@ namespace TheHungryRabbit
 
         private void StartLevel2()
         {
-            Sound.PlayUra();
             FormLevel2 Level2 = new FormLevel2();
             DialogResult DR = Level2.ShowDialog();
             if (DR == System.Windows.Forms.DialogResult.OK)
@@ -64,7 +74,32 @@ namespace TheHungryRabbit
             FormLevel3 Level3 = new FormLevel3();
             DialogResult DR = Level3.ShowDialog();
             if (DR == System.Windows.Forms.DialogResult.OK)
-                StartLevel3();
+                StartLevel4();
+        }
+        
+        private void StartLevel4()
+        {
+            FormLevel4 Level4 = new FormLevel4();
+            DialogResult DR = Level4.ShowDialog();
+            if (DR == System.Windows.Forms.DialogResult.OK)
+                StartLevel5();
+        }
+
+        private void StartLevel5()
+        {
+            FormLevel4 Level5 = new FormLevel5();
+            DialogResult DR = Level5.ShowDialog();
+            if (DR == System.Windows.Forms.DialogResult.OK)
+            {
+                StartYouWin();
+            }
+        }
+        //Игра пройдена
+        private void StartYouWin()
+        {
+            Sound.PlayUra();
+            MessageBox.Show("Кролик больше не голоден!", "Поздравляем");
         }
     }
 }
+

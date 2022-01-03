@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheHungryRabbit.Properties
+namespace TheHungryRabbit2.Properties
 {
 
 

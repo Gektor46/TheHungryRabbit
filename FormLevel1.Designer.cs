@@ -1,4 +1,4 @@
-﻿namespace TheHungryRabbit
+﻿namespace TheHungryRabbit2
 {
     partial class FormLevel1
     {
@@ -28,109 +28,146 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLevel1));
-            this.labelStart = new System.Windows.Forms.Label();
-            this.labelFinish = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // labelStart
+            // labelCarrot1
             // 
-            this.labelStart.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelStart.Location = new System.Drawing.Point(22, 491);
-            this.labelStart.Name = "labelStart";
-            this.labelStart.Size = new System.Drawing.Size(100, 23);
-            this.labelStart.TabIndex = 0;
-            this.labelStart.Text = "Старт";
-            this.labelStart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelCarrot1.Location = new System.Drawing.Point(106, 277);
             // 
-            // labelFinish
+            // labelCarrot2
             // 
-            this.labelFinish.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFinish.Location = new System.Drawing.Point(798, 30);
-            this.labelFinish.Name = "labelFinish";
-            this.labelFinish.Size = new System.Drawing.Size(100, 23);
-            this.labelFinish.TabIndex = 1;
-            this.labelFinish.Text = "Финиш";
-            this.labelFinish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelFinish.MouseEnter += new System.EventHandler(this.labelFinish_MouseEnter);
+            this.labelCarrot2.Location = new System.Drawing.Point(736, 199);
             // 
-            // label1
+            // labelCarrot3
             // 
-            this.label1.BackColor = System.Drawing.Color.DarkGreen;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(0, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 544);
-            this.label1.TabIndex = 2;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.labelCarrot3.Location = new System.Drawing.Point(756, 413);
             // 
-            // label2
+            // label5
             // 
-            this.label2.BackColor = System.Drawing.Color.DarkGreen;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(895, -1);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(16, 544);
-            this.label2.TabIndex = 3;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.label5.BackColor = System.Drawing.Color.DarkGreen;
+            this.label5.Location = new System.Drawing.Point(12, 462);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(808, 16);
+            this.label5.TabIndex = 6;
+            this.label5.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
             // 
-            // label3
+            // label6
             // 
-            this.label3.BackColor = System.Drawing.Color.DarkGreen;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(4, -1);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(907, 16);
-            this.label3.TabIndex = 4;
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.label6.BackColor = System.Drawing.Color.DarkGreen;
+            this.label6.Location = new System.Drawing.Point(804, 383);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(16, 95);
+            this.label6.TabIndex = 7;
+            this.label6.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
             // 
-            // label4
+            // label7
             // 
-            this.label4.BackColor = System.Drawing.Color.DarkGreen;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(4, 527);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(907, 16);
-            this.label4.TabIndex = 5;
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.label7.BackColor = System.Drawing.Color.DarkGreen;
+            this.label7.Location = new System.Drawing.Point(91, 383);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(729, 16);
+            this.label7.TabIndex = 8;
+            this.label7.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.DarkGreen;
+            this.label8.Location = new System.Drawing.Point(12, 324);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(362, 16);
+            this.label8.TabIndex = 9;
+            this.label8.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.DarkGreen;
+            this.label9.Location = new System.Drawing.Point(458, 324);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(440, 16);
+            this.label9.TabIndex = 10;
+            this.label9.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.DarkGreen;
+            this.label10.Location = new System.Drawing.Point(156, 67);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(16, 257);
+            this.label10.TabIndex = 11;
+            this.label10.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.DarkGreen;
+            this.label11.Location = new System.Drawing.Point(715, 16);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(15, 234);
+            this.label11.TabIndex = 12;
+            this.label11.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.DarkGreen;
+            this.label12.Location = new System.Drawing.Point(727, 234);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(64, 16);
+            this.label12.TabIndex = 13;
+            this.label12.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
             // 
             // FormLevel1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(910, 543);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelFinish);
-            this.Controls.Add(this.labelStart);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Name = "FormLevel1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormLevel1";
-            this.Shown += new System.EventHandler(this.FormLevel1_Shown);
+            this.Controls.SetChildIndex(this.labelCarrot1, 0);
+            this.Controls.SetChildIndex(this.labelCarrot2, 0);
+            this.Controls.SetChildIndex(this.labelCarrot3, 0);
+            this.Controls.SetChildIndex(this.labelStart, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
+            this.Controls.SetChildIndex(this.labelFinish, 0);
+            this.Controls.SetChildIndex(this.label5, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.label9, 0);
+            this.Controls.SetChildIndex(this.label10, 0);
+            this.Controls.SetChildIndex(this.label11, 0);
+            this.Controls.SetChildIndex(this.label12, 0);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label labelStart;
-        private System.Windows.Forms.Label labelFinish;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        protected System.Windows.Forms.Label label5;
+        protected System.Windows.Forms.Label label6;
+        protected System.Windows.Forms.Label label7;
+        protected System.Windows.Forms.Label label8;
+        protected System.Windows.Forms.Label label9;
+        protected System.Windows.Forms.Label label10;
+        protected System.Windows.Forms.Label label11;
+        protected System.Windows.Forms.Label label12;
     }
 }

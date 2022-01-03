@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94DDC0CC-823C-4E4E-B676-FF6C079D4EF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TheHungryRabbit2</RootNamespace>
+    <AssemblyName>TheHungryRabbit2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>RabbitIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel.Designer.cs">
+      <DependentUpon>FormLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel1.Designer.cs">
+      <DependentUpon>FormLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel2.Designer.cs">
+      <DependentUpon>FormLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel3.Designer.cs">
+      <DependentUpon>FormLevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel4.Designer.cs">
+      <DependentUpon>FormLevel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLevel5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLevel5.Designer.cs">
+      <DependentUpon>FormLevel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sound.cs" />
+    <EmbeddedResource Include="FormLevel.resx">
+      <DependentUpon>FormLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLevel1.resx">
+      <DependentUpon>FormLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLevel2.resx">
+      <DependentUpon>FormLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLevel3.resx">
+      <DependentUpon>FormLevel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLevel4.resx">
+      <DependentUpon>FormLevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLevel5.resx">
+      <DependentUpon>FormLevel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rabbit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RabbitIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weeping.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ura.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crunch.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nyam.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RabbitIcon.ico" />
+    <None Include="Resources\Castle.png" />
+    <None Include="Resources\Key.png" />
+    <None Include="Resources\Opening.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
